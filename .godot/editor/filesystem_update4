@@ -1,0 +1,4 @@
+res://control.tscn
+res://scripts/button.gd
+res://scripts/ButtonsManager.gd
+res://scripts/OutputManager.gd

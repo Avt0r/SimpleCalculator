@@ -1,0 +1,280 @@
+[gd_scene load_steps=3 format=3 uid="uid://ph00vqtikhvg"]
+
+[ext_resource type="Script" path="res://scripts/ButtonsManager.gd" id="1_xfyhf"]
+[ext_resource type="Script" path="res://scripts/OutputManager.gd" id="2_l5j40"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchor_right = 0.217
+anchor_bottom = 0.824
+offset_right = 0.0159912
+offset_bottom = 114.048
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Control" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_xfyhf")
+
+[node name="ButtonN0" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 40.0
+offset_top = 550.0
+offset_right = 90.0
+offset_bottom = 600.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "0
+"
+
+[node name="ButtonN1" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = 400.0
+offset_right = 40.0
+offset_bottom = 450.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "1"
+
+[node name="ButtonN2" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 40.0
+offset_top = 400.0
+offset_right = 90.0
+offset_bottom = 450.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "2"
+
+[node name="ButtonN3" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 90.0
+offset_top = 400.0
+offset_right = 140.0
+offset_bottom = 450.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "3"
+
+[node name="ButtonN4" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = 450.0
+offset_right = 40.0
+offset_bottom = 500.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "4"
+
+[node name="ButtonN5" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 40.0
+offset_top = 450.0
+offset_right = 90.0
+offset_bottom = 500.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "5"
+
+[node name="ButtonN6" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 90.0
+offset_top = 450.0
+offset_right = 140.0
+offset_bottom = 500.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "6"
+
+[node name="ButtonN7" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = 500.0
+offset_right = 40.0
+offset_bottom = 550.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "7"
+
+[node name="ButtonN8" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 40.0
+offset_top = 500.0
+offset_right = 90.0
+offset_bottom = 550.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "8"
+
+[node name="ButtonN9" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 90.0
+offset_top = 500.0
+offset_right = 140.0
+offset_bottom = 550.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "9"
+
+[node name="ButtonClear" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 90.0
+offset_top = 550.0
+offset_right = 140.0
+offset_bottom = 600.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "C"
+
+[node name="ButtonDel" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = 550.0
+offset_right = 40.0
+offset_bottom = 600.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "<X
+"
+
+[node name="ButtonPlus" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 140.0
+offset_top = 400.0
+offset_right = 190.0
+offset_bottom = 450.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "+"
+
+[node name="ButtonMinus" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 140.0
+offset_top = 450.0
+offset_right = 190.0
+offset_bottom = 500.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "-"
+
+[node name="ButtonMultiply" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 140.0
+offset_top = 500.0
+offset_right = 190.0
+offset_bottom = 550.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "*"
+
+[node name="ButtonDivide" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 140.0
+offset_top = 550.0
+offset_right = 190.0
+offset_bottom = 600.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "⁄"
+
+[node name="Output" type="Node" parent="."]
+script = ExtResource("2_l5j40")
+
+[node name="LabelExpression" type="Label" parent="Output"]
+offset_left = 10.0
+offset_top = 370.0
+offset_right = 210.0
+offset_bottom = 395.0
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="LabelResult" type="Label" parent="Output"]
+offset_left = 10.0
+offset_top = 395.0
+offset_right = 210.0
+offset_bottom = 420.0
+horizontal_alignment = 2
+vertical_alignment = 1
